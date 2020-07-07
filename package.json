@@ -2,12 +2,12 @@
   "name": "hello-express",
   "version": "0.0.1",
   "description": "A simple Node app built on Express, instantly up and running.",
-  "main": "index.js",
+  "main": "src/app.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "node src/app.js"
   },
   "dependencies": {
-    "discord.js": "^12.2.0"
+    "react": "^16.13.1"
   },
   "engines": {
     "node": "12.x"
