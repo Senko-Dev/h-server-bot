@@ -5,7 +5,7 @@
     console.error('Unhandled promise rejection:', error);
   });
 
-  client.on('ready', client => {
+  client.on('ready', () => {
     client.user.setActivity('h');
     console.log('h');
   })
