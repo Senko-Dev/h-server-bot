@@ -18,7 +18,7 @@ client.on("ready", () => {
 
 client.on("message", message => {
   if (message.author.bot) return;
-  if (message.content !== "h" && message.channel.id !== '736300220681551952') {
+  if (message.content !== "h" && message.channel.id !== '736350283659083839') {
     message.delete({ timeout: 2000 }).then(() => {
       message
         .reply(
@@ -29,7 +29,7 @@ client.on("message", message => {
         });
     });
   }
-  if (message.channel.id === "736303776624934972") {
+  if (message.channel.id === '736350471358251029') {
     if (
       message.content !== "hs"
     ) {
